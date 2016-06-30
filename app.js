@@ -2,13 +2,13 @@ const express = require('express');
 const app = express();
 
 app.set('view engine', 'pug')
-app.use('/www', express.static('www'))
+app.use(express.static('www'))
 app.get('/', function(req, res) {
     res.render("index", {
-      "title": "Louie Adamsian"
+      "title": "Louie Adamian"
     })
 })
 
-server.listen(2001, () => {
-    console.log('3D printer station is listening on port 2001');
+app.listen(2001, () => {
+    console.log('personal site is listening on port 2001');
 })

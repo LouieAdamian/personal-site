@@ -1,2 +1,2 @@
-# personal-site
-My profile website.
+# Personal Site
+My profile website not much to see here.
