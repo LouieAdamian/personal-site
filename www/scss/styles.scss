@@ -1,4 +1,13 @@
- .page-wrapper {
-   font-family: "lato", sans-serif;
+@import "variables";
+body, html{
+background:$background-colour
+
+}
+.page-wrapper {
+   font-family: Lato, sans-serif;
    font-weight: 400;
  }
+.body{
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+}
