@@ -7,7 +7,7 @@ app.set('view engine', 'pug')
 app.use(express.static('www'))
 app.get('/', function(req, res) {
     res.render("index", {
-      "title": "Louie Adamian"
+        "title": "Louie Adamian"
     })
 })
 
