@@ -10,3 +10,4 @@ gulp.task('sass', function () {
 gulp.task('sass:watch', function () {
   gulp.watch('/scss/styles.scss', ['scss'])
 });
+gulp.task('default',['sass','sass:watch'])
