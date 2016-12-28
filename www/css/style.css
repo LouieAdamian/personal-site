@@ -9,6 +9,8 @@ body, html {
     background-image: url("/img/profile.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    height: 60vh;
+    width: 100%
 }
 .body {
     font-family: Lato, sans-serif;
