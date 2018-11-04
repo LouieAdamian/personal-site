@@ -17,12 +17,12 @@
 		width: 30vw;
   }
 	.headerWrapper{
-		width: 59vw;
+		width: 58vw;
 	}
 }
 
 .pageWrapper{
-  margin: 3vw 3vw 3vw 3vw
+  margin: 2.5vw 2.5vw 2.5vw 2.5vw
 }
 .focuses{
   font-family: 'Raleway', sans-serif;
@@ -45,7 +45,7 @@
   display: inline;
   margin: 0;
   border-width:0;
-  margin-right: 30px;
+  margin-right: 2vw;
 }
 .headerWrapper{
   margin: 0 0 0 0;
@@ -54,7 +54,7 @@
 }
 .para{
   display: inline-block;
-	margin-top: 3vw;
+	margin-top: 2.5vw;
 	margin-bottom: 1.5vw;
 }
 .copyrightWrapper{
@@ -72,4 +72,5 @@
 }
 .social{
 	padding: .5vw;
+	max-width: 32px;
 }
